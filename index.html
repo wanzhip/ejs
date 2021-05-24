@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ejs</title>
+  <script src="./js/ejs.js"></script>
+</head>
+
+<body>
+  <!-- <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <script>
+        var html = ejs.render('<%= "hello,world" %>',''); // 直接输出html
+        var template = ejs.compile('<%= 45645612 %>'); // 输出一个函数
+        var result  = template(); // 处理之后，成为html
+        document.getElementById('div1').innerHTML=html;
+        document.getElementById('div2').innerHTML=template;
+        document.getElementById('div3').innerHTML=result;
+    </script> -->
+
+
+
+
+
+
+  <!-- <script id="users" type="text/template">
+    <% if (names.length) { %>
+          <ul>
+              <% names.forEach(function(name){ %>
+                  <li style="color:#f40"><%= name%></li>
+              <% }) %>
+          </ul>
+      <% } %>
+  </script>
+  <script>
+    var users = document.getElementById("users").innerHTML;
+    var namesArr = ['zhangsan', 'lisi', 'wangwu']; // 从接口中获取
+    var html = ejs.render(users, {
+      names: namesArr
+    });
+    document.body.innerHTML = html;
+  </script> -->
+
+
+  <script src="./ejs02.js"></script>
+</body>
+
+</html>
